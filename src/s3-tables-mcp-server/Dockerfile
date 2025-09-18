@@ -67,7 +67,7 @@ RUN groupadd --force --system app && \
 COPY --from=uv --chown=app:app /app/.venv /app/.venv
 
 # Get healthcheck script
-COPY ./docker-healthcheck.sh /usr/local/bin/docker-healthcheck.sh
+COPY --chmod=0755 ./docker-healthcheck.sh /usr/local/bin/docker-healthcheck.sh
 
 # Run as non-root
 USER app
