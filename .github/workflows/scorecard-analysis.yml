@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
@@ -41,7 +41,7 @@ jobs:
       # uploads of run results in SARIF format to the repository Actions tab.
       # https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts
       - name: "Upload artifact"
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: SARIF file
           path: scorecard-results.sarif
@@ -50,6 +50,6 @@ jobs:
       # Upload the results to GitHub's code scanning dashboard (optional).
       # Commenting out will disable upload of results to your repo's Code Scanning dashboard
       - name: "Upload to code-scanning"
-        uses: github/codeql-action/upload-sarif@57eebf61a2246ab60a0c2f5a85766db783ad3553 # v3.28.15
+        uses: github/codeql-action/upload-sarif@9cea5827c668a1fe7165dbce6e80c3f9cf3f83ac # v3.28.15
         with:
           sarif_file: scorecard-results.sarif

@@ -25,7 +25,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so follow-up steps can access it
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 #v5.0.0
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 #v7.0.0
 
       - name: Simple test
         uses: stelligent/cfn_nag@8b5f03da74202ba323a145e9d037ddce6cab9dec
@@ -35,7 +35,7 @@ jobs:
           output_path: cfn_nag.sarif
 
       - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@57eebf61a2246ab60a0c2f5a85766db783ad3553 # v3.28.15
+        uses: github/codeql-action/upload-sarif@9cea5827c668a1fe7165dbce6e80c3f9cf3f83ac # v3.28.15
 
         # Results are generated only on a success or failure
         # this is required since GitHub by default won't run the next step
