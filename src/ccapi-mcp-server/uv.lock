@@ -170,11 +170,11 @@ wheels = [
 
 [[package]]
 name = "asteval"
-version = "1.0.5"
+version = "1.0.6"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b1/ba/31fb900dc07b946450f495d68d0cdeea40d9abda285bff1b9fcea09c08ac/asteval-1.0.5.tar.gz", hash = "sha256:bac3c8dd6d2b789e959cfec9bb296fb8338eec066feae618c462132701fbc665", size = 50826, upload-time = "2024-09-30T01:14:03.85Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2b/f0/ad92c4bc565918713f9a4b54f06d06ec370e48079fdb50cf432befabee8b/asteval-1.0.6.tar.gz", hash = "sha256:1aa8e7304b2e171a90d64dd269b648cacac4e46fe5de54ac0db24776c0c4a19f", size = 52079, upload-time = "2025-01-19T21:44:03.291Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0a/0d/2c6aaab67ac566d76322e87827d707214c5f6ffb5a4fcd456a8633da1788/asteval-1.0.5-py3-none-any.whl", hash = "sha256:082b95312578affc8a6d982f7d92b7ac5de05634985c87e7eedd3188d31149fa", size = 21803, upload-time = "2024-09-30T01:14:02.305Z" },
+    { url = "https://files.pythonhosted.org/packages/13/ac/19dbba27e891f39feb4170b884da449ee2699ef4ebb88eefeda364bbbbcf/asteval-1.0.6-py3-none-any.whl", hash = "sha256:5e119ed306e39199fd99c881cea0e306b3f3807f050c9be79829fe274c6378dc", size = 22406, upload-time = "2025-01-19T21:44:01.323Z" },
 ]
 
 [[package]]
@@ -244,16 +244,16 @@ dev = [
 
 [[package]]
 name = "bc-detect-secrets"
-version = "1.5.44"
+version = "1.5.47"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pyyaml" },
     { name = "requests" },
     { name = "unidiff" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b7/95/71f4977fa43538777b1168d1359023dcf60ca80b1ff9bc7227d34ff30563/bc_detect_secrets-1.5.44.tar.gz", hash = "sha256:bebd82c56055c600335f85db95f7ca3b434087f16292a0396a60705de1b94183", size = 91288, upload-time = "2025-06-08T14:58:49.969Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/82/fb/624aa462ea738cd21e56b1a5b7bbe375403e4114f7bc92a7cded7f516da0/bc_detect_secrets-1.5.47.tar.gz", hash = "sha256:a9be28a2e564f2b19731991df39e63ae6372cc84d828ee24e50c094cbb4c154c", size = 91339, upload-time = "2026-03-17T14:05:50.24Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ca/f6/f57aa66bdb0b44b02f3c860079440b17fea7f886dd6cb0b5c7d17cb469d3/bc_detect_secrets-1.5.44-py3-none-any.whl", hash = "sha256:0ab63d6c4f6680ec2dbe42cc3c63480568c55dbb6254afcc5bb6d4375a4e1d27", size = 121144, upload-time = "2025-06-08T14:58:48.519Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/54/6039515fe99f712801fe6dc6a67c4565ffd23a5b83fb1813b64c9fdb73a8/bc_detect_secrets-1.5.47-py3-none-any.whl", hash = "sha256:46f88c710b0fd8c5f2e54b361d793b5e1469197884da73cfc6f488b614366fc3", size = 121200, upload-time = "2026-03-17T14:05:49.218Z" },
 ]
 
 [[package]]
@@ -496,7 +496,7 @@ wheels = [
 
 [[package]]
 name = "checkov"
-version = "3.2.454"
+version = "3.2.528"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiodns" },
@@ -527,6 +527,7 @@ dependencies = [
     { name = "networkx" },
     { name = "packageurl-python" },
     { name = "packaging" },
+    { name = "platformdirs" },
     { name = "prettytable" },
     { name = "pycep-parser" },
     { name = "pydantic" },
@@ -544,9 +545,9 @@ dependencies = [
     { name = "urllib3" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/59/f7/8f143ea2f707f998d611811844038532c85a4529fe6715e766d1d4705ecc/checkov-3.2.454.tar.gz", hash = "sha256:bfa20fccc6b65045e967dc3c63c778eb9672d650406fad79910c656ab4a50bb3", size = 981389, upload-time = "2025-07-24T10:03:37.214Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e6/42/35b162bd88d9ecc6962e69a8c71526eb54035dec43a66743b3d4d2ae1452/checkov-3.2.528.tar.gz", hash = "sha256:c1812d5595d466a3182c04e25441a6ee1475558f6b6f73380ad85134e9fe05f3", size = 997930, upload-time = "2026-05-10T11:13:42.457Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f7/44/8877bdf436dd81e219242465bacfbca9c82a3bbdf848ecd6986c7242ed2a/checkov-3.2.454-py3-none-any.whl", hash = "sha256:7de15dba07712be8377cea3b8644418228eee1be5980a3cc49a137ebe3c04a0c", size = 2291498, upload-time = "2025-07-24T10:03:35.819Z" },
+    { url = "https://files.pythonhosted.org/packages/02/ec/ea0f02971c685d1d621ab2f3a2aee1fe6e785640487a654e371e05d83aa3/checkov-3.2.528-py3-none-any.whl", hash = "sha256:311c1113ea9d08060dba54b7315937e49a357bfafc7464288e15cd56a477b0c8", size = 2304831, upload-time = "2026-05-10T11:13:37.141Z" },
 ]
 
 [[package]]
@@ -2766,11 +2767,11 @@ wheels = [
 
 [[package]]
 name = "urllib3"
-version = "1.26.20"
+version = "2.7.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/e4/e8/6ff5e6bc22095cfc59b6ea711b687e2b7ed4bdb373f7eeec370a97d7392f/urllib3-1.26.20.tar.gz", hash = "sha256:40c2dc0c681e47eb8f90e7e27bf6ff7df2e677421fd46756da1161c39ca70d32", size = 307380, upload-time = "2024-08-29T15:43:11.37Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz", hash = "sha256:231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c", size = 433602, upload-time = "2026-05-07T16:13:18.596Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/33/cf/8435d5a7159e2a9c83a95896ed596f68cf798005fe107cc655b5c5c14704/urllib3-1.26.20-py2.py3-none-any.whl", hash = "sha256:0ed14ccfbf1c30a9072c7ca157e4319b70d65f623e91e7b32fadb2853431016e", size = 144225, upload-time = "2024-08-29T15:43:08.921Z" },
+    { url = "https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl", hash = "sha256:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897", size = 131087, upload-time = "2026-05-07T16:13:17.151Z" },
 ]
 
 [[package]]
